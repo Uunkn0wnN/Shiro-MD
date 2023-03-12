@@ -65,7 +65,7 @@ async function startTio() {
     const tio = tioConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['BOTCAHX','Safari',''],
+        browser: ['made by bagas','edge',''],
         auth: state,
 	generateHighQualityLinkPreview: true
     })
@@ -315,7 +315,7 @@ lolcatjs.fromString(`Connecting...`)
 if (update.connection == "open" || update.receivedPendingNotifications == "true") {
 	lolcatjs.fromString(`⏳ Mengkoneksikan Ke >>•> WhatsApp Web`)
 	lolcatjs.fromString(`✅ Berhasil Tersambung Ke ` + JSON.stringify(tio.user, null, 2))
-	global.creator = ['6285692006004']
+	global.creator = ['628983755600']
 	let imgown = await getBuffer('https://telegra.ph/file/4ea5b7309bb948e62bc3a.jpg')
 	let imgcrea = await getBuffer('https://telegra.ph/file/b8aa5d61ad7bc8eb90e43.jpg')
 	let butcrea = [{ buttonId: `owner`, buttonText: { displayText: 'Owner' }, type: 1 }, { buttonId: `ping`, buttonText: { displayText: 'Status Bot' }, type: 1 }]
