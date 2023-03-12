@@ -34,9 +34,9 @@ global.limitawal = {
 }
 global.thumb = fs.readFileSync('./media/image/tio.jpg')
 global.faall = fs.readFileSync('./media/image/fake.jpg')
-global.mygit = 'https://github.com/BOTCAHX'
-global.webmy = 'https://api.botcahx.biz.id'
-global.ghme = 'https://github.com/BOTCAHX'
+global.mygit = 'https://github.com/Uunkn0wnN'
+global.webmy = 'https://uunkn0wnn.github.io/22.1447-/'
+global.ghme = 'https://github.com/Uunkn0wnN'
 global.botname = 'Shiro 💠'
 global.omlen = 'Made by Shiro 💠'
 global.weem = 'Shiro 💠'
