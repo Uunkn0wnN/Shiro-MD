@@ -2,31 +2,31 @@
 
 const fs = require('fs')
 const chalk = require('chalk')
-global.owner = ['6281395861695']
-global.ownernomer = "6281395861695"
-global.premium = ['6281395861695']
+global.owner = ['628983755600']
+global.ownernomer = "628983755600"
+global.premium = ['628983755600']
 global.packname = 'Sticker By'
-global.author = 'BOTCAHX'
+global.author = 'Shiro 💠'
 global.sessionName = 'session'
-global.jumlha = '999'
-global.jumhal = '100000000000000'
-global.jumlah = '1000000000'
-global.prefa = ['','!','.','#','&']
+global.jumlha = '999999'
+global.jumhal = '99999999999'
+global.jumlah = '9999999'
+global.prefa = ['','!','.','#','Shiro.']
 global.sp = ''
 global.mess = {
-    success: '✅Done',
-    admin: 'Fitur Khusus Admin Group!',
-    botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
-    premime: 'Fitur Khusus Premium Kalo Mau Daftar Ketik Sewa / Chat Owner',
-    owner: 'Fitur Khusus Owner Bot',
-    group: 'Fitur Digunakan Hanya Untuk Group!',
-    private: 'Fitur Digunakan Hanya Untuk Private Chat!',
+    success: 'success ✅',
+    admin: 'Perintah ini hanya bisa digunakan oleh Admin Grup',
+    botAdmin: 'Bot Harus menjadi admin',
+    premime: 'Perintah ini khusus member premium\nMinat jadi premium? hubungi owner ketik .owner',
+    owner: 'Perintah ini hanya dapat digunakan oleh owner bot',
+    group: 'Perintah ini hanya bisa digunakan di grup',
+    private: 'Perintah ini hanya bisa digunakan di private message',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Loading...',
+    wait: '_Wait a minute, data is being processed!_',
     error: 'Error!',
-    errapi: 'Error Mungkin Apikey Tidak Valid!',
-    errmor: 'Error Kesalahan Sistem',
-    endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
+    errapi: 'Maaf terjadi kesalahan terhadap api',
+    errmor: 'maaf terjadi Kesalahan terhafap Sistem',
+    endLimit: 'maaf Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12:00',
 }
 global.limitawal = {
     premium: "Infinity",
@@ -37,9 +37,9 @@ global.faall = fs.readFileSync('./media/image/fake.jpg')
 global.mygit = 'https://github.com/BOTCAHX'
 global.webmy = 'https://api.botcahx.biz.id'
 global.ghme = 'https://github.com/BOTCAHX'
-global.botname = 'BOTCAHX'
-global.omlen = '© TioXd'
-global.weem = 'BOTCAHX'
+global.botname = 'Shiro 💠'
+global.omlen = 'Made by Shiro 💠'
+global.weem = 'Shiro 💠'
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
